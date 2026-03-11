@@ -37,7 +37,7 @@ body {
 
 /* Si tiene una coma no es una combinación de selectores, es un selector múltiple */
 p, li{
-    color: #9e0096;
+    color: #e02b2b;
     font-size: 20px;
 }
 
@@ -64,4 +64,44 @@ p, li{
     margin: 25px 0 25px 0;
     display: inline-block;
     background-color: hsl(63, 100%, 73%);
+}
+
+
+.pseudo_hover{
+    background-color: rgb(28, 0, 128);
+    color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #5768c9;
+    font-size: 20px;
+    padding: 25px 10px 25px 10px;
+}
+
+.pseudo_hover:hover{
+    background-color: #5957c9;
+    color: #3f3866;
+    border: 2px solid #3b3866;
+    font-size: 20px;
+}
+
+.pseudo_focus{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #384066;
+}
+
+.pseudo_focus:focus{
+    background-color: #e6a671;
+    border: 2px solid #042f3a;
+}
+
+.pseudo_active{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #5a1a1a;
+    background-color: rgba(223, 27, 27, 0.5);
+}
+
+.pseudo_active:active{
+    background-color: #af3131;
+    border: 2px solid #272727;
 }
