@@ -40,3 +40,28 @@ p, li{
     color: #9e0096;
     font-size: 20px;
 }
+
+.display_block{
+    margin: 10px 0 10px 0;
+    display: block;
+    background-color: #5adbff;
+}
+
+.display_inline{
+    margin: 25px 0 25px 0;
+    display: inline;
+    background-color: #272727;
+    color: aliceblue;
+}
+
+.display_inline_block{
+    margin: 25px 0 25px 0;
+    display: inline-block;
+    background-color: #e67b7b;
+}
+
+.display_inline_block_2{
+    margin: 25px 0 25px 0;
+    display: inline-block;
+    background-color: hsl(63, 100%, 73%);
+}
