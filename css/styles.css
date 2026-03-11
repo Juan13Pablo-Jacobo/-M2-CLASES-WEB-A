@@ -18,3 +18,25 @@ body {
     font-size: 40px;
     font-style: italic;
 }
+
+/* combinación de selectores */
+#selectores_universal_combinaciones{
+    font-size: 25px;
+    color: #fa8d0f;
+}
+
+#selectores_universal_combinaciones p{
+    color: #df0e43;
+    font-size: 23px;
+}
+
+#selectores_universal_combinaciones ul li strong{
+    color: #2f0381;
+    font-size: 20px;
+}
+
+/* Si tiene una coma no es una combinación de selectores, es un selector múltiple */
+p, li{
+    color: #9e0096;
+    font-size: 20px;
+}
